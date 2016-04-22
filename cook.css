@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body{
+	background-color:#232323;
+	margin:0 auto; 
+	max-width:600px;
+}
+
+h1{
+	text-align:center;
+	/* background-color:black; */
+	font-size:70px;
+	color:white;
+	font-family: 'Dancing Script', cursive;
+}
+
+h2{
+	text-align:center;
+	/* background-color:black; */
+	font-size:40px;
+	color:white;
+	/* font-family: 'Pacifico', cursive; */
+}
+
+p{
+	font-size:20px;
+	bottom:0;
+	background:rgba(0,0,0,1);
+	background:-webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.4));
+	background:-moz-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.4));
+	color:white;
+	position:absolute;
+	padding:10px;
+	margin:0;
+	height:30px;
+	-webkit-transition: height .5s;
+}
+span{
+	float:right;
+}
+
+div{
+	height:200px;
+	/* margin: 0 auto; */
+	border-radius:5px;
+	position:relative;
+	padding:0;
+	margin:40px 0 0 0;
+}
+
+
+.chkbutmas{
+	background-image:url("https://i.ytimg.com/vi/tD9O-L2Xvzo/maxresdefault.jpg");
+	background-size:cover;
+}
+
+.dahimurg{
+	background-image:url("https://i.ytimg.com/vi/tD9O-L2Xvzo/maxresdefault.jpg");
+	background-size:cover;
+}
+
+.tikka{
+	background-image:url("https://quietambienceblog.files.wordpress.com/2016/01/img_0227-1-jpg.jpeg");
+	background-size:cover;
+}
+
+small{
+	opacity:0; 
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+
+.showmenu p{
+	height:100px;
+}
+
+.showmenu small{
+	opacity:1;	
+}
